@@ -20,13 +20,15 @@ The obtained *td file contains all necessary information on thermochemistry
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
 > 1) "Gas‐phase thermochemistry of noncovalent ligand–alkali metal ion clusters: An impact of low frequencies" A. A. Otlyotov, Y. Minenkov J. Comput. Chem. 2023, 44, 1807 – 1816 (DOI: 10.1002/jcc.27129)
+> 2) "An Influence of Electronic Structure Theory Method, Thermodynamic and Implicit Solvation Corrections on the Organic Carbonates Conformational and Binding Energies"
+A. S. Ryzhako, A. A. Tuma, A. A. Otlyotov, and Y. Minenkov, 2024, submitted.
 > 
 > **If using the hindered rotor approach please cite the following work:**
 >
-> 2) "Numerical Evaluation of Energy Levels and Wave Functions for Hindered Internal Rotation" G. Ercolani J. Chem. Educ. 2000, 77, 11, 1495 (DOI: 10.1021/ed077p1495)
+> 3) "Numerical Evaluation of Energy Levels and Wave Functions for Hindered Internal Rotation" G. Ercolani J. Chem. Educ. 2000, 77, 11, 1495 (DOI: 10.1021/ed077p1495)
 >
 > **If using the msRRHO approximation please cite the following publications:**
 >
-> 3) "Supramolecular Binding Thermodynamics by Dispersion-Corrected Density Functional Theory" S. Grimme, Chem. Eur. J 2012, 18, 9955 (DOI: 10.1002/chem.201200497)
-> 4) "Calculation of absolute molecular entropies and heat capacities made simple" P. Pracht, S. Grimme, Chem. Sci., 2021,12, 6551-6568 (DOI: 10.1039/D1SC00621E)
+> 4) "Supramolecular Binding Thermodynamics by Dispersion-Corrected Density Functional Theory" S. Grimme, Chem. Eur. J 2012, 18, 9955 (DOI: 10.1002/chem.201200497)
+> 5) "Calculation of absolute molecular entropies and heat capacities made simple" P. Pracht, S. Grimme, Chem. Sci., 2021,12, 6551-6568 (DOI: 10.1039/D1SC00621E)
 > 
