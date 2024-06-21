@@ -15,7 +15,7 @@ The easiest way to generate the *dat file with molecular parameters to perform t
 3) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from msRRHO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_1```
 ### Thermochemistry calculation
 Run the following command on the generated *dat file: ```python3 /path/to/script/thermochemistry_mmRRHO.py m1_00_BC-PBE0-PBE.dat```
-The obtained *td file contains all necessary information on thermochemistry
+> The obtained *td file contains all necessary information on thermochemistry
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
 > 1) "Gas‐phase thermochemistry of noncovalent ligand–alkali metal ion clusters: An impact of low frequencies" A. A. Otlyotov, Y. Minenkov J. Comput. Chem. 2023, 44, 1807 – 1816 (DOI: 10.1002/jcc.27129)
