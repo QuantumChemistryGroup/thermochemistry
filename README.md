@@ -1,2 +1,3 @@
 # thermochemistry
-Gas-phase thermochemistry in HO, hindered rotor and msRRHO approaches
+[!NOTE]
+This repository **thermochemistry** is a collection of Gas-phase thermochemistry in HO, hindered rotor and msRRHO approaches
