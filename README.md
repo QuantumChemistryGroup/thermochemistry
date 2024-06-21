@@ -12,4 +12,5 @@ This repository **thermochemistry** is a collection of Gas-phase thermochemistry
 >
 > **If using the msRRHO approximation please cite the following publications:**
 > 3) "Supramolecular Binding Thermodynamics by Dispersion-Corrected Density Functional Theory" S. Grimme, Chem. Eur. J 2012, 18, 9955 (DOI: 10.1002/chem.201200497)
-> 4) "Calculation of absolute molecular entropies and heat capacities made simple" P. Pracht, S. Grimme, Chem. Sci., 2021,12, 6551-6568 (DOI: 10.1039/D1SC00621E) 
+> 4) "Calculation of absolute molecular entropies and heat capacities made simple" P. Pracht, S. Grimme, Chem. Sci., 2021,12, 6551-6568 (DOI: 10.1039/D1SC00621E)
+> 
