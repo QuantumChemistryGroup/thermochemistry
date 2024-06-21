@@ -16,7 +16,7 @@ The easiest way to generate the *dat file with molecular parameters to perform t
 ### Thermochemistry calculation
 Run the following command on the generated *dat file: ```python3 /path/to/script/thermochemistry_mmRRHO.py m1_00_BC-PBE0-PBE.dat```
 The obtained *td file contains all necessary information on thermochemistry
-[^1]: ...
+[^1]: Please, see "examples" folder for m1_00_BC-PBE0-PBE.out (ORCA output), m1_00_BC-PBE0-PBE.dat (Harmonic Oscillator), m1_00_BC-PBE0-PBE.td (HO thermochemistry)
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
 > 1) "Gas‐phase thermochemistry of noncovalent ligand–alkali metal ion clusters: An impact of low frequencies" A. A. Otlyotov, Y. Minenkov J. Comput. Chem. 2023, 44, 1807 – 1816 (DOI: 10.1002/jcc.27129)
