@@ -1,11 +1,11 @@
 # thermochemistry
 This repository **thermochemistry** is a collection of the Python 3 scripts to perform the gas-phase thermochemistry calculation based on molecular data within the following approximations:
 
-*translational partition function*: **ideal gas**
+translational partition function: *ideal gas*
 
-*rotational partition function*: **rigid rotor** or **hindered rotor**
+rotational partition function: **rigid rotor** or **hindered rotor**
 
-*vibrational parition function*: **hramonic oscillator** or **msRRHO approach of S. Grimme (DOI: 10.1002/chem.201200497)**
+vibrational parition function: **hramonic oscillator** or **msRRHO approach of S. Grimme (DOI: 10.1002/chem.201200497)**
 
 ..
 > [!IMPORTANT]
