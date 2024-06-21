@@ -7,7 +7,10 @@ This repository **thermochemistry** is a collection of the Python 3 scripts to p
 1) Linux operational system
 2) Python 3
 3) Numpy (if not installed, please install it with the following command: ```pip3 install numpy```)
-..
+## Running the code
+### Generation of input files (*dat)
+
+### Thermochemistry calculation
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
 > 1) "Gas‐phase thermochemistry of noncovalent ligand–alkali metal ion clusters: An impact of low frequencies" A. A. Otlyotov, Y. Minenkov J. Comput. Chem. 2023, 44, 1807 – 1816 (DOI: 10.1002/jcc.27129)
