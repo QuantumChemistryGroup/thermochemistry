@@ -10,7 +10,8 @@ This repository **thermochemistry** is a collection of the Python 3 scripts to p
 ## Running the code
 ### Generation of input files (*dat)
 The easiest way to generate the *dat file with molecular parameters to perform the subsequent thermochemistry calculations id to run our script on the ORCA frequency job:
-```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 HO```
+1) Frequencies scaling factor (1.011) and Harmonic Oscillator: ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 HO```
+2) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from HO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_0```
 ### Thermochemistry calculation
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
