@@ -5,4 +5,4 @@ This repository **thermochemistry** is a collection of Gas-phase thermochemistry
 ..
 > [!IMPORTANT]
 When using this code please cite the following publication:
-..
+> ..
