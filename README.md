@@ -9,7 +9,8 @@ This repository **thermochemistry** is a collection of the Python 3 scripts to p
 3) Numpy (if not installed, please install it with the following command: ```pip3 install numpy```)
 ## Running the code
 ### Generation of input files (*dat)
-
+The easiest way to generate the *dat file with molecular parameters to perform the subsequent thermochemistry calculations id to run our script on the ORCA frequency job:
+```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 HO```
 ### Thermochemistry calculation
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
