@@ -6,7 +6,7 @@ This repository **thermochemistry** is a collection of the Python 3 scripts to p
 ## Prerequisites
 1) Linux operational system
 2) Python 3
-3) Numpy (if not installed, please install it with the following command: pip3 install numpy)
+3) Numpy (if not installed, please install it with the following command: ```pip3 install numpy```)
 ..
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
