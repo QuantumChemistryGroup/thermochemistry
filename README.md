@@ -13,6 +13,7 @@ The easiest way to generate the *dat file with molecular parameters to perform t
 1) Frequencies scaling factor (1.011) and Harmonic Oscillator: ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 HO```
 2) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from HO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_0```
 3) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from msRRHO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_1```
+For hindered rotor (*one* rotatable bond), see file ```examples/m1_01_NaH2O6_411-PBE0.dat``` (potential is given in kcal/mol), the corresponding output: ```examples/m1_01_NaH2O6_411-PBE0.dat```
 ### Thermochemistry calculation
 Run the following command on the generated *dat file: ```python3 /path/to/script/thermochemistry_mmRRHO.py m1_00_BC-PBE0-PBE.dat```
 The obtained *td file contains all necessary information on thermochemistry
