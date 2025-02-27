@@ -14,10 +14,11 @@ The easiest way to generate the *dat file with molecular parameters to perform t
 2) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from HO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_0```
 3) Frequencies scaling factor (1.011) and msRRHO (tau = 100, alpha = 4, enthapy is from msRRHO) : ```python3 /path/to/script/td_input_orca.py m1_00_BC-PBE0-PBE.out 1.011 GR_100_4_1```
 4) For hindered rotor (*one* rotatable bond), see file ```examples/m1_01_NaH2O6_411-PBE0.dat``` (potential is given in kcal/mol), the corresponding output: ```examples/m1_01_NaH2O6_411-PBE0.dat```
+5) For MOPAC frequency output & scaling factor (1.00) and HO: ```python3 /path/to/script/td_input_mopac.py m1_00_TBP_RM1_opt_RM1_freq.out 1.00 HO```
 ### Thermochemistry calculation
 Run the following command on the generated *dat file: ```python3 /path/to/script/thermochemistry_mmRRHO.py m1_00_BC-PBE0-PBE.dat```
 The obtained *td file contains all necessary information on thermochemistry
-[^1]: Please, see "examples" folder for m1_00_BC-PBE0-PBE.out (ORCA output), m1_00_BC-PBE0-PBE.dat (Harmonic Oscillator), m1_00_BC-PBE0-PBE.td (HO thermochemistry)
+[^1]: Please, see "examples" folder for m1_00_BC-PBE0-PBE.out (ORCA output), m1_00_BC-PBE0-PBE.dat (Harmonic Oscillator), m1_00_BC-PBE0-PBE.td (HO thermochemistry), m1_00_TBP_RM1_opt_RM1_freq.out (MOPAC output), m1_00_TBP_RM1_opt_RM1_freq.dat (Harmonic Oscillator), m1_00_TBP_RM1_opt_RM1_freq.td (HO thermochemistry)
 > [!IMPORTANT]
 > **When using this code please cite the following publication:**
 > 1) "Gas‐phase thermochemistry of noncovalent ligand–alkali metal ion clusters: An impact of low frequencies" A. A. Otlyotov, Y. Minenkov J. Comput. Chem. 2023, 44, 1807 – 1816 (DOI: 10.1002/jcc.27129)
